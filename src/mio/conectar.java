@@ -15,7 +15,7 @@ public class conectar {
         try {
             Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
             conect = DriverManager.getConnection("jdbc:ucanaccess://C:/base/prueba1.accdb", "root","");
-            JOptionPane.showMessageDialog(null,"Conectado");
+            
         } catch (Exception ex) {
             JOptionPane.showMessageDialog(null,"Error base:"+ex);
             
